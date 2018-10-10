@@ -7,3 +7,4 @@ Lluvia de ideas para programar:
 - Si es posible añadir el "Lower Heating Value" es el calor necesario para calentar el fluido de 25*C a 150 *C
 - En el caso de encontrar Papers guardarlos en avances de onedrive
 - Ultima Linea de Prueba
+- Haha a ver si funciona 
