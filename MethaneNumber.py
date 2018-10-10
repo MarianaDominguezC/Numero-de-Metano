@@ -1,5 +1,6 @@
 from tkinter import *
 
+#"Constantes"
 root = Tk()
 root.title("Methane Number")
 root.geometry("500x400")
@@ -12,6 +13,7 @@ IC4H10 = DoubleVar()
 NC4H10 = DoubleVar()
 IC5H12 = DoubleVar()
 
+#Añadir Funciones
 def getResultforMN():
         gaslist = [CH4.get(),C2H6.get(),C3H8.get(),IC4H10.get(),NC4H10.get(),IC5H12.get()]
         hcratio = [4,3,8/3,10/4,10/4,12/5]
@@ -29,6 +31,7 @@ def getResultforMN():
         else:
             print("Off the range, update the mixture! Percentage = %(second)d" %{"second":suma})
 
+#Añadir mas parametros para GUI 
 #METANO
 Methane = Label(root, text="Methane, CH4".translate(SUB), fg="Black", bg="#87cefa").place(x=10,y=10)
 intCH4 = Entry(root, textvariable=CH4).place(x=130,y=10)
